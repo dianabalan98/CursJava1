@@ -10,6 +10,7 @@ public class Tester {
 	
 	public String name;
 	public int ratePerHour;  //int = primitive, Integer = wrapper class (has more flexibility but less optimized as int for performance)
+	public int age;
 	
 	//Constructors
 	public Tester() {}
@@ -35,5 +36,12 @@ public class Tester {
 		return ratePerHour;
 	}
 	
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public int getAge() {
+		return age;
+	}
 
 }

@@ -34,6 +34,12 @@ public class CalculatorSalarii {
 		System.out.println("Testerul "+tester1.getName() + " castiga " + salariuSapt1+ " RON pe saptamana.");
 		System.out.println("Testerul "+tester2.getName() + " castiga " + salariuZi2+ " RON pe zi.");
 		System.out.println("Testerul "+tester2.getName() + " castiga " + salariuSapt2+ " RON pe saptamana.");
+		
+		// TEMA 1
+		Tester tester3 = new Tester();
+		tester3.setName("Ana");
+		tester3.setAge(25);
+		System.out.println(tester3.getName() + " are : " + tester3.getAge() + " ani!");
 
 	}
 
