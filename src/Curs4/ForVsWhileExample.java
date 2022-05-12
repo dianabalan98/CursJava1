@@ -15,14 +15,14 @@ public class ForVsWhileExample {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Please insert a number: ");
 		
-		int val = 0;
-		
 		for(int i = scan.nextInt(); i!=0; i=scan.nextInt()) {
 			i *= 10;
 			System.out.println("Please insert a number: ");
 			System.out.println(i);
 			
 		}
+		
+		scan.close();
 	}
 	
 	public static void rezolvareCuWhile() {  //preferabil pt validari booleene
@@ -38,6 +38,8 @@ public class ForVsWhileExample {
 			System.out.println(i);
 			i = scan.nextInt();
 		}
+		
+		scan.close();
 	}
 	
 	
