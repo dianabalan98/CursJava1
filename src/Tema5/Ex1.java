@@ -30,13 +30,11 @@ public class Ex1 {
 				} else {
 					System.out.println("\nLogin Error!");
 					attempts--;
-					continue;
 				}
 				
 			} while(attempts > 0);
 			
 			System.out.println("\nMaximum attempts reached. User blocked.");
-			scan.close();
 		}
 		
 	}
