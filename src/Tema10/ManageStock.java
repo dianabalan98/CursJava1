@@ -27,7 +27,6 @@ public class ManageStock {
 		for(String veggie : veggiesArray){
 			this.veggieList.add(veggie.trim());
 		}
-		//this.veggieList = Arrays.asList(veggiesArray);
 	}
 	
 	 boolean checkIfVeggieInStock(String veggie) {
